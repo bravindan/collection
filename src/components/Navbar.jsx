@@ -4,7 +4,7 @@ import logo from '../logo.svg'
 
 export default function Navbar() {
   return (
-    <main className='sticky top-0 '>
+    <main className='sticky top-0 z-10'>
         <section className="mx-auto h-16 bg-sky-500 text-white shadow-lg flex  items-center justify-between">
         <div>
         <img src={logo} className="animate-spin ml-4" alt="logo" width={40} />
